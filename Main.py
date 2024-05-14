@@ -18,7 +18,7 @@ def sequence_chiffrage():
     # Utilisation de la fonction et résultat
     resultat = chiffrage(Sentence_C)
     # Insertion du résultat
-    entry_resultat.insert(0,resultat_C)
+    entry_resultat_C.insert(0,resultat_C)
 
 # Texte
 label = ctk.CTkLabel(root, text="Ajouter la phrase à chiffrer", anchor="w")
@@ -33,18 +33,18 @@ button = ctk.CTkButton(root, text="Chiffrage",command=sequence_chiffrage)
 button.pack(pady=20,padx=20, anchor="w")
 
 # Pour l'inscription du texte chiffrer
-entry_resultat = ctk.CTkEntry(root, width=100)
-entry_resultat.pack(padx=20, fill="x", anchor="w")
+entry_resultat_C = ctk.CTkEntry(root, width=100)
+entry_resultat_C.pack(padx=20, fill="x", anchor="w")
 
 ###########################################################################
 
 def sequence_dechiffrage():
     # récuperation de la phrase à chiffrer
-    Sentence = entry2.get()
+    Sentence_D = entry2.get()
     # Utilisation de la fonction et résultat
-    resultat = chiffrage(Sentence)
+    resultat_D = dechiffrage(Sentence_D)
     # Insertion du résultat
-    entry_resultat2.insert(0,resultat)
+    entry_resultat_D.insert(0,resultat_D)
 
 # Texte
 label2 = ctk.CTkLabel(root, text="Ajouter la phrase à dechiffrer", anchor="w")
@@ -59,8 +59,7 @@ button2 = ctk.CTkButton(root, text="dechiffrage",command=sequence_dechiffrage)
 button2.pack(pady=20,padx=20, anchor="w")
 
 # Pour l'inscriptiuon du texte chiffrer
-entry_resultat2 = ctk.CTkEntry(root, width=100)
-entry_resultat2.pack(padx=20, fill="x", anchor="w")
-
+entry_resultat_D = ctk.CTkEntry(root, width=100)
+entry_resultat_D.pack(padx=20, fill="x", anchor="w")
 
 root.mainloop()
