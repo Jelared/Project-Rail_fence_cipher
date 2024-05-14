@@ -14,7 +14,7 @@ root.geometry("800x400")
 
 def sequence_chiffrage():
     # récuperation de la phrase à chiffrer
-    Sentence = entry.get()
+    Sentence_C = entry.get()
     # Utilisation de la fonction et résultat
     resultat = chiffrage(Sentence_C)
     # Insertion du résultat
@@ -32,7 +32,7 @@ entry.pack(padx=20, fill="x", anchor="w")
 button = ctk.CTkButton(root, text="Chiffrage",command=sequence_chiffrage)
 button.pack(pady=20,padx=20, anchor="w")
 
-# Pour l'inscriptiuon du texte chiffrer
+# Pour l'inscription du texte chiffrer
 entry_resultat = ctk.CTkEntry(root, width=100)
 entry_resultat.pack(padx=20, fill="x", anchor="w")
 
