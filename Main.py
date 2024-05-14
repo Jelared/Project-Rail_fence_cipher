@@ -16,9 +16,9 @@ def sequence_chiffrage():
     # récuperation de la phrase à chiffrer
     Sentence = entry.get()
     # Utilisation de la fonction et résultat
-    resultat = chiffrage(Sentence)
+    resultat = chiffrage(Sentence_C)
     # Insertion du résultat
-    entry_resultat.insert(0,resultat)
+    entry_resultat.insert(0,resultat_C)
 
 # Texte
 label = ctk.CTkLabel(root, text="Ajouter la phrase à chiffrer", anchor="w")
