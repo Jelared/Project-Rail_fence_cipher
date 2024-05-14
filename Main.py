@@ -16,7 +16,7 @@ def sequence_chiffrage():
     # récuperation de la phrase à chiffrer
     Sentence_C = entry.get()
     # Utilisation de la fonction et résultat
-    resultat = chiffrage(Sentence_C)
+    resultat_C = chiffrage(Sentence_C)
     # Insertion du résultat
     entry_resultat_C.insert(0,resultat_C)
 
