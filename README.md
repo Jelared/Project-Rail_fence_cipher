@@ -1,23 +1,40 @@
 # Rail Fence
 
-### **_The project objective_**
-A classic 'Hangman' game implemented in English using the Godot engine
+### **_About_**
+A simple GUI application for encrypting and decrypting messages using the Rail Fence Cipher (Rail 2). The application is built with customtkinter.
 
-### **_Game rules_**
+### **_Features_**
 
-Two modes are available
-* Classic game : Six possible mistakes for guessing a word
-* Points game : As many words as possible without making more than six mistakes
+* Encryption: Input a phrase and encrypt it using the Rail Fence Cipher. The encrypted message is displayed in the interface.
+* Decryption: Input an encrypted phrase and decrypt it back to the original message. The decrypted message is displayed in the interface.
 
-### **_Pictures_**
+### **_Technology_**
 
-<img src="https://github.com/Jelared/Project-Hangman/assets/57228122/633a1a47-4bab-43d4-bc22-28387132b08a" width="410"/>
-<img src="https://github.com/Jelared/Project-Hangman/assets/57228122/a9b66fc9-e343-4f0c-b7ab-4b1ac88eef57" width="400"/> 
+* Python 3.x
+* customtkinter
 
-### **_Link to the game_**
+### **_Usage_**
 
-[itch.io](https://jelared.itch.io/hangman)
+1. Clone the Repository
 
+```
+git clone https://github.com/your-username/rail-fence-cipher-gui.git
+cd rail-fence-cipher-gui
+```
+
+2. Install Dependencies
+
+_Install customtkinter using pip_
+```
+pip install customtkinter
+```
+
+3. Run the Application
+
+_Ensure you have the Encryption.py and Decryption.py modules in the same directory as the main script. Then run the main script_
+```
+python main.py
+```
 ### **_Licence_**
 
-This project is licensed under the MIT license
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jelared/Project-Rail_fence_cipher/blob/main/LICENSE) file for details.
