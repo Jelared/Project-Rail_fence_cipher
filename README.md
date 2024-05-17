@@ -37,4 +37,4 @@ python main.py
 ```
 ### **_Licence_**
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jelared/Project-Rail_fence_cipher/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jelared/Project-Rail_fence_cipher?tab=MIT-1-ov-file) file for details.
