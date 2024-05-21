@@ -16,7 +16,7 @@ A simple GUI application for encrypting and decrypting messages using the Rail F
 ### **_Usage_**
 
 1. Clone the Repository
-
+   
 ```
 git clone https://github.com/your-username/rail-fence-cipher-gui.git
 cd rail-fence-cipher-gui
