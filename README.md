@@ -1,19 +1,19 @@
 # Rail Fence
 
-## **_About_**
+## About
 A simple GUI application for encrypting and decrypting messages using the Rail Fence Cipher (Rail 2). The application is built with customtkinter.
 
-## **_Features_**
+## Features
 
 * Encryption: Input a phrase and encrypt it using the Rail Fence Cipher. The encrypted message is displayed in the interface.
 * Decryption: Input an encrypted phrase and decrypt it back to the original message. The decrypted message is displayed in the interface.
 
-## **_Technology_**
+## Technology
 
 * Python 3.x
 * customtkinter
 
-## **_Usage_**
+## Usage
 
 1. Clone the Repository
    
@@ -35,6 +35,6 @@ _Ensure you have the Encryption.py and Decryption.py modules in the same directo
 ```
 python main.py
 ```
-## **_Licence_**
+## Licence
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Jelared/Project-Rail_fence_cipher?tab=MIT-1-ov-file) file for details.
