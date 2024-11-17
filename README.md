@@ -1,4 +1,4 @@
-# Rail Fence
+# Rail Fence Cipher
 
 ## About
 A simple GUI application for encrypting and decrypting messages using the Rail Fence Cipher (Rail 2). The application is built with customtkinter.
