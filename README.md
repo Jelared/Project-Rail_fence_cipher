@@ -5,7 +5,7 @@ A simple GUI application for encrypting and decrypting messages using the Rail F
 
 ## Features
 
-* Encryption: Input a phrase and encrypt it using the Rail Fence Cipher. The encrypted message is displayed in the interface.
+* Encryption: Input a phrase and encrypt it using the Rail Fence Cipher. The encrypted message will be displayed in the interface.
 * Decryption: Input an encrypted phrase and decrypt it back to the original message. The decrypted message is displayed in the interface.
 
 ## Technology
